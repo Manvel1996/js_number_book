@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#root{
+    width: max-content;
+    margin: 0 auto;
+    border: 1px solid black;
+    position: relative;
+}
+.userMangment{
+    background-color: aqua;
+    align-items: center;
+    height: 45px;
+    font-size: 20px;
+    color: white;
+}
+.userMangment span{
+    font-weight: 700;
+}
+.userMangment button{
+    cursor: pointer;
+    height: 35px;
+    width: 150px;
+    color: gray;
+    background-color: none;
+    border: none;
+} 
+table{
+    border-collapse: collapse;
+}
+tr{
+    border: 1px solid black;
+    min-width: 40px;
+    text-align: center;
+    margin: 50px;
+}
+th{
+    margin: 50px;
+    padding: 15px;
+}
+td{
+    padding: 10px;
+}
+button{
+    cursor: pointer;
+    color: gray;
+    background-color: none;
+}
+.addDiv{
+    width: 300px;
+    height: 400px;
+    background-color: rgb(236, 235, 235);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    position: absolute;
+    top:10px;
+    left: 30%;
+    display: none;
+}
+.addNav{
+    display: flex;
+    justify-content: space-between;
+    width: 250px;
+    margin: 20px;
+}
+form p{
+    margin: 6px 0 6px 28px;
+}
+form input{
+    width: 250px;
+    height: 40px;
+    margin: 0 auto;
+    display: block;
+    padding: 5px;
+}
+.addBottom{
+    margin-top: 18px;
+    background-color: gray;
+    height: 45px;
+    width: 300px;
+    display: flex;
+    align-items: center;
+}
+.addReset{
+    width: 50px;
+    display: inline;
+    border: none;
+    cursor: pointer;
+    background-color: gray;
+    margin-left: 90px;
+}
+.addSubmit{
+    cursor: pointer;
+    width: 90px;
+    display: inline;
+    background-color: green;
+    color: white;
+}
+.editInput{
+    width: 190px;
+    height: 30px;
+    margin: 0 auto;
+    display: block;
+    padding: 3px;
+    color: red;
+}

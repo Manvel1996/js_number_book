@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Managment Table</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer ></script>
+</head>
+<body>
+    <div id="root">
+        <table>
+            <thead >
+                <tr class="userMangment">
+
+                    <td colspan="4">User <span>Mangment</span></td>
+                    <td colspan="2"><button id="addButton">Add New User</button></td>
+                </tr>
+                <tr>
+                    <th>#</th>
+                    <th>Name</th>
+                    <th>Phone Number</th>
+                    <th>Website</th>
+                    <th>Email</th>
+                    <th>Action</th>
+                </tr>
+            </thead>
+        </table>
+        <div class="addDiv">
+            <div class="addNav">
+                <p>Add Employee</p>
+                <button class="addDivCancel">X</button>
+            </div>
+            <form action="#">
+                <p>Name</p>
+                <input type="text" name="userName" maxlength="25">
+                <p>Phone Number</p>
+                <input type="text" name="phone" maxlength="25">
+                <p>Website</p>
+                <input type="text" name="city" maxlength="25">
+                <p>Email</p>
+                <input type="email" name="email" maxlength="25">
+                <div class="addBottom">
+                    <input type="reset" value="Cancel" class="addReset"> 
+                    <input type="submit" value="Add" class="addSubmit">
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
